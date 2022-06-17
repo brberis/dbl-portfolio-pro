@@ -1,0 +1,96 @@
+/* initialization and general styles start */
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--tertiary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* initialization and general styles end */
+
+/* header start */
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header div {
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+/* header end */
+
+/* hero start  */
+.hero {
+  background-image: url('../images/boats-flipped.png');
+  background-color: #b9b9b9;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 55px;
+  width: 320px;
+  height: 55px;
+  background-color: rgb(144, 205, 216);
+}
+
+.hero h2 {
+  color: black;
+  font-size: 34px;
+}
+
+
+
+
