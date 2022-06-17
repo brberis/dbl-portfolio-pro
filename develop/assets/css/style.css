@@ -1,8 +1,9 @@
 /* initialization and general styles start */
 :root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
+  --primary-color: rgb(237,237,246);
+  --secondary-color: rgb(146,204,205);
+  --header-color: rgb(49,52,62);
+  --text-color: rgb(64,85,117);
 }
   
 * {
@@ -12,33 +13,44 @@
 }
 
 body {
-  color: var(--tertiary-color);
-  font-family: Helvetica, Arial, sans-serif;
+  color: var(--primary-color);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* initialization and general styles end */
 
 /* header start */
-.header {
+header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: var(--header-color);
 }
 
-.header div {
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px 0 20px;
+  width: 420px;
+  height: 55px;
+  background-color: var(--secondary-color);
 }
 
 header h1 {
   font-weight: bold;
-  margin: 0;
+  margin: 0 15px;
   font-size: 36px;
+  color: var(--header-color);
 }
 
 header nav {
-  margin: 7px 0;
+  margin: 25px 60px;
 }
 
 header a {
   text-decoration: none;
+  color: var(--secundary-color);
 }
 
 header nav ul {
@@ -50,15 +62,17 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.35vw;
+  padding: 5px 15px;
+  border-bottom: 3px solid;
+  margin: 0 6px;
+
 }
 
 header nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
   text-shadow: none;
 }
 /* header end */
@@ -83,11 +97,11 @@ header nav ul li a:hover {
   margin: 20px 55px;
   width: 320px;
   height: 55px;
-  background-color: rgb(144, 205, 216);
+  background-color: var(--secondary-color);
 }
 
 .hero h2 {
-  color: black;
+  color: var(--header-color);
   font-size: 34px;
 }
 
