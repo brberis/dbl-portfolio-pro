@@ -157,7 +157,7 @@ article {
 
 .article-detail {
   width: 48%;
-  min-width: 280px;
+  min-width: 180px;
   height: 130px;
   overflow: hidden;
   margin: 5px;
@@ -236,10 +236,35 @@ article h4 {
 }
 /* contact me section end */
 
+/* media query 980px */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
 
+  header nav ul {
+    margin-top: -15px;
+    width: 100%;
+    justify-content: center;
+  }
 
+  header nav ul li a {
+    font-size: 20px;
+  }
 
+  .content {
+    margin: 30px;
+  }
 
+  .hero div {
+    margin-right: 30px;
+  }
+  /* footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  } */
 
 
 
