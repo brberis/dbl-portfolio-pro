@@ -8,12 +8,12 @@
   
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
 body {
-  color: var(--primary-color);
+  max-width: 1250px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* initialization and general styles end */
@@ -50,7 +50,6 @@ header nav {
 
 header a {
   text-decoration: none;
-  color: var(--secundary-color);
 }
 
 header nav ul {
@@ -67,19 +66,18 @@ header nav ul li a {
   padding: 5px 15px;
   border-bottom: 3px solid;
   margin: 0 6px;
+  color: var(--secondary-color);
 
 }
 
 header nav ul li a:hover {
   color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-shadow: none;
 }
 /* header end */
 
 /* hero start  */
 .hero {
-  background-image: url('../images/boats-flipped.png');
+  background-image: url('../images/boats.jpg');
   background-color: #b9b9b9;
   height: 250px;
   background-size: cover;
@@ -95,19 +93,20 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 100px;
-  width: 320px;
+  width: 420px;
   height: 55px;
   background-color: var(--secondary-color);
 }
 
 .hero h2 {
   color: var(--header-color);
-  font-size: 34px;
+  font-size: 32px;
 }
 /* hero end */
 
 /* main start */
 .main-section {
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -117,14 +116,16 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 25px 100px 25px 135px;
+  margin: 30px 100px 30px 135px;
 
   /* margin: 0 auto; */
 }
 
 .section-title {
   text-align: right;
+  margin-top: 0;
   padding-right: 15px;
+  min-width: 145px;
 }
 
 .section-title h2 {
@@ -142,8 +143,73 @@ header nav ul li a:hover {
   line-height: 1.5;
   color: var(--text-color);
 }
-
 /* about me start */
+
+/* work start */
+article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.article-image {
+  width: 48%;
+  min-width: 280px;
+  height: 130px;
+  overflow: hidden;
+  margin: 5px;
+  background-color: var(--secondary-color);
+  border: 5px solid var(--secondary-color);
+  position: relative;
+}
+
+article img {
+  width: 400px;
+  height: 400px;
+  margin-top: -100px;
+  opacity: 0.7;
+}
+
+article > div:first-of-type {
+  width: 97%;
+  min-width: 280px;
+  height: 300px;
+  overflow: hidden;
+  
+}
+
+article div > img:first-of-type {
+  width: 100%;
+  height: auto;
+  opacity: 0.75;
+
+}
+
+article img:first-of-type:hover {
+  opacity: 1;
+}
+
+
+.article-info {
+  position: absolute;
+  bottom: 10px;
+  background-color: var(--secondary-color);
+  padding-left: 5px;
+  padding-right: 20px;
+  color: var(--text-color);
+  max-width: 250px;
+
+}
+
+article h4 {
+  color: var(--text-color);
+  font-size: 22px;
+}
+
+
+
+
+
 
 
 
