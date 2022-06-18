@@ -218,16 +218,18 @@ article h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 25px;
   align-items: center;
   list-style: none;
 }
 
+
 .footer-menu ul li a {
   font-weight: bolder;
-  font-size: 1.45vw;
+  font-size: 16px;
   padding: 5px 15px;
   border-bottom: 3px solid;
-  margin: 0 15px;
+  margin: 100px 15px;
   color: var(--text-color);
   
 
