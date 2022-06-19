@@ -49,7 +49,7 @@ header h1 {
 }
 
 header nav {
-  margin: 25px 60px;
+  margin: 25px 60px 25px 30px;
 }
 
 header nav ul {
@@ -227,31 +227,28 @@ article h4 {
 .footer-menu ul li a {
   font-weight: bolder;
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   border-bottom: 3px solid;
-  margin: 100px 15px;
+  margin: 0 0px;
   color: var(--text-color);
-  
-
 }
 /* contact me section end */
 
-/* media query 980px */
+/* media query 980px start */
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
-    justify-content: center;
     position: relative;
   }
 
   header nav ul {
-    margin-top: -15px;
     width: 100%;
     justify-content: center;
   }
 
   header nav ul li a {
-    font-size: 20px;
+    font-size: 14px;
+    padding: 5px 0;
   }
 
   .content {
@@ -261,12 +258,88 @@ article h4 {
   .hero div {
     margin-right: 30px;
   }
-  /* footer h2, footer div {
-    text-align: center;
-    width: 100%;
-  } */
 
+  .footer-menu ul li a {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+  }
+/* media query 980px start */
 
+/* media query 768px start */
+@media screen and (max-width: 768px) {
+  
+header {
+  justify-content: center;
+  height: 110px;
+}
 
+header div {
+  width: 420px;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 0;
+}
 
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+header nav {
+  margin: 12px 60px 25px 30px;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.content {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.main-content {
+  border: none;
+}
+
+.section-title h2 {
+  font-size: 38px;
+  text-align: center;
+  border-bottom: 3px solid;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+/* delete break line in titles */
+.section-title br {
+  content:" ";
+}
+
+.section-title br:after {
+  content:" ";
+}
+
+#contact-me {
+  display: none;
+}
+
+.footer-menu {
+    padding: 15px 0;
+}
+
+.hero div {
+  width: 350px;
+  height: 45px;
+}
+
+.hero div h2 {
+  font-size: 24px;
+}
+/* media query 768px end */
+
+/* media query 980px */
 
