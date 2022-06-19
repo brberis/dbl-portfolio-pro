@@ -415,7 +415,7 @@ article h4 {
     opacity: 1;
   }
 
-  article div > img:first-of-type {
+  article div a > img:first-of-type {
     opacity: 1;
   }
 
