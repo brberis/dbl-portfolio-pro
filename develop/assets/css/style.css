@@ -198,7 +198,6 @@ article img:first-of-type:hover {
   opacity: 1;
 }
 
-
 .article-info {
   position: absolute;
   bottom: 10px;
@@ -305,7 +304,7 @@ article h4 {
   }
 
   header nav {
-    margin: 12px 60px 25px 30px;
+    margin: 12px 60px 25px 60px;
   }
 
   header nav ul li a {
@@ -323,19 +322,19 @@ article h4 {
     font-size: 24px;
   }
 
-  #about-me img {
-    display: block;
-    margin-bottom: 30px;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 5px solid var(--header-color);
-  }
-
   .content {
     display: block;
     margin-top: 50px;
     text-align: center;
+  }
+  
+  #about-me img {
+    display: block;
+    margin: 40px auto 30px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid var(--header-color);
   }
 
   .main-content {
