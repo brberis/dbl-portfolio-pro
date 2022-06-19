@@ -309,7 +309,7 @@ article h4 {
   }
 
   header nav ul li a {
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px;
     padding: 5px;
   }
@@ -389,6 +389,15 @@ article h4 {
 
   .hero div h2 {
     font-size: 20px;
+  }
+
+  .content {
+    margin: 10px;
+  }
+
+  .content p {
+    line-height: 1.5;
+    font-size: 19px;
   }
 
   .section-title h2 {
