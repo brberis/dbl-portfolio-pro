@@ -13,7 +13,7 @@
 }
 
 body {
-  max-width: 1250px;
+  max-width: 1200px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -418,10 +418,15 @@ article h4 {
     opacity: 1;
   }
 
+  .main-content p:last-child {
+    margin-bottom: 45px;
+  }
+
   /* some space from the botton of a mobile device */
   .main-content nav {
     margin-bottom: 50px;
   }
+/* media query 575px end */
 
 }
 
