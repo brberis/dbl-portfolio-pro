@@ -418,8 +418,8 @@ article h4 {
     opacity: 1;
   }
 
-  .main-content p:last-child {
-    margin-bottom: 45px;
+  #work {
+    margin-top: 45px;
   }
 
   /* some space from the botton of a mobile device */
