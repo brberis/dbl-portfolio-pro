@@ -15,11 +15,11 @@ Beautiful and responsive pure CSS portfolio landing page. This project is follow
 
 ## Getting Started
 
-![alt text](https://brberis.github.io/dbl-portfolio-pro/develop/assets/images/web.jpg)
+![alt text](https://brberis.github.io/dbl-portfolio-pro/develop/assets/images/web.png)
 
 ### Mobile version
 
-![alt text](https://brberis.github.io/dbl-portfolio-pro/develop/assets/images/mobile.jpg)
+![alt text](https://brberis.github.io/dbl-portfolio-pro/develop/assets/images/mobile.png)
 
 
 ### Features 
