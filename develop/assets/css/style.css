@@ -343,7 +343,7 @@ article h4 {
   }
 
   .section-title h2 {
-    font-size: 38px;
+    font-size: 36px;
     text-align: center;
     border-bottom: 3px solid;
     margin: 0 auto 35px auto;
@@ -362,7 +362,7 @@ article h4 {
     content:" ";
   }
 
-  #contact-me {
+  #contact-me h2{
     display: none;
   }
 
@@ -402,10 +402,6 @@ article h4 {
     text-justify: inter-word;
   }
 
-  .section-title h2 {
-    font-size: 34px;
-  }
-
   .article-detail {
     width: 100%;
   }
@@ -413,6 +409,9 @@ article h4 {
   /* no hover on images for finger driven devices */
   article img {
     opacity: 1;
+  }
+  article > div:first-of-type {
+    height: 250px;
   }
 
   article div a > img:first-of-type {
