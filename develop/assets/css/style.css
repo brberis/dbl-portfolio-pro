@@ -32,24 +32,29 @@ header {
 
 header div {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: center;
   margin: 10px 0 20px;
-  width: 420px;
+  width: 430px;
   height: 55px;
   background-color: var(--secondary-color);
 }
 
+header div img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--header-color);
+}
+
 header h1 {
   font-weight: bold;
-  margin: 0 15px;
   font-size: 38px;
   color: var(--header-color);
 }
 
 header nav {
-  margin: 25px 60px;
+  margin: 25px 60px 25px 30px;
 }
 
 header nav ul {
@@ -67,7 +72,6 @@ header nav ul li a {
   border-bottom: 3px solid;
   margin: 0 6px;
   color: var(--secondary-color);
-
 }
 
 header nav ul li a:hover {
@@ -104,6 +108,11 @@ header nav ul li a:hover {
 }
 /* hero end */
 
+/* about me */
+#about-me img {
+  display: none;
+}
+
 /* work section start */
 .main-section {
   background-color: var(--primary-color);
@@ -139,7 +148,6 @@ header nav ul li a:hover {
   border-left: 3px solid var(--text-color);
   padding-left: 30px;
   flex: 1;
-
 }
 
 .content p {
@@ -157,7 +165,7 @@ article {
 
 .article-detail {
   width: 48%;
-  min-width: 280px;
+  min-width: 180px;
   height: 130px;
   overflow: hidden;
   margin: 5px;
@@ -170,7 +178,7 @@ article img {
   width: 400px;
   height: 400px;
   margin-top: -100px;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 article > div:first-of-type {
@@ -178,14 +186,12 @@ article > div:first-of-type {
   min-width: 280px;
   height: 300px;
   overflow: hidden;
-  
 }
 
-article div > img:first-of-type {
+article div a > img:first-of-type {
   width: 100%;
   height: auto;
   opacity: 0.75;
-
 }
 
 article img:first-of-type:hover {
@@ -227,21 +233,181 @@ article h4 {
 .footer-menu ul li a {
   font-weight: bolder;
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   border-bottom: 3px solid;
-  margin: 100px 15px;
+  margin: 0 0px;
   color: var(--text-color);
-  
+}
 
+.footer-menu ul li a:hover {
+  color: rgb(10, 10, 10)
 }
 /* contact me section end */
 
+/* media query 980px start */
+@media screen and (max-width: 980px) {
 
+  header {
+    padding-bottom: 0;
+    position: relative;
+  }
 
+  header nav ul {
+    width: 100%;
+    justify-content: center;
+  }
 
+  header nav ul li a {
+    font-size: 14px;
+    padding: 5px 0;
+  }
 
+  .hero div {
+    margin-right: 30px;
+  }
 
+  .content {
+    margin: 30px;
+  }
 
+  .footer-menu ul li a {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+  }
 
+}
+/* media query 980px start */
+
+/* media query 768px start */
+@media screen and (max-width: 768px) {
+    
+  header {
+    justify-content: center;
+    height: 110px;
+  }
+
+  header div {
+    width: 420px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  header div img {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  header nav {
+    margin: 12px 60px 25px 30px;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .hero div {
+    width: 350px;
+    height: 45px;
+  }
+
+  .hero div h2 {
+    font-size: 24px;
+  }
+
+  #about-me img {
+    display: block;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid var(--header-color);
+  }
+
+  .content {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .main-content {
+    border: none;
+    padding-left: 0;
+  }
+
+  .section-title h2 {
+    font-size: 38px;
+    text-align: center;
+    border-bottom: 3px solid;
+    margin: 0 auto 35px auto;
+    width: 50%;
+
+  }
+
+  /* delete break line in titles */
+  .section-title br {
+    content:" ";
+    display: none;
+
+  }
+
+  .section-title br:after {
+    content:" ";
+  }
+
+  #contact-me {
+    display: none;
+  }
+
+  .footer-menu {
+      padding: 15px 0;
+  }
+
+}
+/* media query 768px end */
+
+/* media query 575px start */
+@media screen and (max-width: 575px) {
+
+  .hero {
+    height: 150px;
+  }
+
+  .hero div {
+    width: 280px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .hero div h2 {
+    font-size: 20px;
+  }
+
+  .section-title h2 {
+    font-size: 34px;
+  }
+
+  .article-detail {
+    width: 100%;
+  }
+
+  /* no hover on images for finger driven devices */
+  article img {
+    opacity: 1;
+  }
+
+  article div > img:first-of-type {
+    opacity: 1;
+  
+  }
+}
 
 
