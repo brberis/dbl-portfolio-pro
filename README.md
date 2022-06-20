@@ -43,7 +43,7 @@ Beautiful and responsive, pure CSS professional portfolio landing page. This pro
 
 ### Live Demo  
 
-[Horiseon Demo Website](https://brberis.github.io/dbl-portfolio-pro/develop)
+[Portfolio Demo Website](https://brberis.github.io/dbl-portfolio-pro/develop)
 
 
 ## Authors
