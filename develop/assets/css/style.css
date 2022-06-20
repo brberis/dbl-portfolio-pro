@@ -427,6 +427,13 @@ article h4 {
     margin-bottom: 50px;
   }
 /* media query 575px end */
+}
+/* fix nav font size for screens over 980px */
+@media screen and (min-width: 981px) {
+
+  header nav ul li a {
+    font-size: 16px;
+  }
 
 }
 
