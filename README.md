@@ -32,7 +32,7 @@ Beautiful and responsive, pure CSS professional portfolio landing page. This pro
 * Quality HTML5 and CSS3 code.
 * HTNL follows logical structure independent of styling and positioning.
 * Optimized for SEO and accessibility. 
-* Scalable code.
+* Scalability.
 
 <br/>
 
