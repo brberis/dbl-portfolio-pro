@@ -428,7 +428,8 @@ article h4 {
   }
 /* media query 575px end */
 }
-/* fix nav font size for screens over 980px */
+
+/* fix nav font size on screens over 980px */
 @media screen and (min-width: 981px) {
 
   header nav ul li a {
