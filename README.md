@@ -5,22 +5,27 @@
 
 # Portfolio Web App
 
-Responsive and optimized, 
+Your professional work with distinction.
 
+<br/>
 
 ## Description
 
-Beautiful and responsive pure CSS portfolio landing page. This project is following all the accessibility standards and optimization for search engines.
+Beautiful and responsive, pure CSS professional portfolio landing page. This project is following all the accessibility standards and optimization for search engines.
 
+<br/>
 
 ## Getting Started
 
 ![alt text](https://brberis.github.io/dbl-portfolio-pro/develop/assets/images/web.png)
 
+<br/>
+
 ### Mobile version
 
 ![alt text](https://brberis.github.io/dbl-portfolio-pro/develop/assets/images/mobile.png)
 
+<br/>
 
 ### Features 
 
@@ -29,6 +34,7 @@ Beautiful and responsive pure CSS portfolio landing page. This project is follow
 * Optimized for SEO and accessibility. 
 * Scalable code.
 
+<br/>
 
 ### ToDo List 
 
