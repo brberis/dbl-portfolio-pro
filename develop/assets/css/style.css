@@ -169,7 +169,7 @@ article {
   height: 130px;
   overflow: hidden;
   margin: 5px;
-  background-color: var(--secondary-color);
+  background-color: var(--header-color);
   border: 5px solid var(--secondary-color);
   position: relative;
 }
@@ -178,7 +178,7 @@ article img {
   width: 400px;
   height: 400px;
   margin-top: -100px;
-  opacity: 0.75;
+  opacity: 0.45;
 }
 
 article > div:first-of-type {
@@ -191,7 +191,7 @@ article > div:first-of-type {
 article div a > img:first-of-type {
   width: 100%;
   height: auto;
-  opacity: 0.75;
+  opacity: 0.45;
 }
 
 article img:first-of-type:hover {
